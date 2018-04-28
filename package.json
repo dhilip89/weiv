@@ -6,13 +6,13 @@
   "scripts": {
     "build": "webpack --env dev && webpack --mode=production --env build",
     "dev": "webpack --progress --colors --watch --env dev",
-    "test": "jest ./test/*.test.js",
+    "test": "jest ./test/.test.js",
     "test:watch": "jest --watch ./test/*.test.js",
     "upgrade": "ncu -a && npm i"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/richdyang/weiv.git"
+    "url": "https://github.com/chaoyangnz/weiv.git"
   },
   "keywords": [
     "weiv",
@@ -24,9 +24,9 @@
   "author": "Chao Yang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/richdyang/weiv/issues"
+    "url": "https://github.com/chaoyangnz/weiv/issues"
   },
-  "homepage": "https://github.com/richdyang/weiv",
+  "homepage": "https://github.com/chaoyangnz/weiv",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
